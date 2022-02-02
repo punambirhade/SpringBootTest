@@ -52,10 +52,10 @@ node {
       
       // deploy docker image to nexus
 
-      echo "Docker Image Tag Name: ${dockerImageTag}"
+     // echo "Docker Image Tag Name: ${dockerImageTag}"
 
-      sh "docker login -u punampatait1 -p punampatait ${dockerRepoUrl}"
-      sh "docker tag ${dockerImageName} ${dockerImageTag}"
-      sh "docker push ${dockerImageTag}"
+     // sh "docker login -u punampatait1 -p punampatait ${dockerRepoUrl}"
+     // sh "docker tag ${dockerImageName} ${dockerImageTag}"
+     // sh "docker push ${dockerImageTag}"
     }
 }
